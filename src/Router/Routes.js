@@ -11,25 +11,25 @@ import { TimeLine } from "../Components/timeline";
 import { Performancepage2 } from "../Components/performancepage2";
 import { useSelector } from 'react-redux'
 import { useState } from "react";
+import AssignMentees from "../Components/AssignMentees";
 
 export const ReactRoutes = ({ finalGoal, setFinalGoal, isLogin, setIsLogin, proceed, setProceed, corner, setcorner, currentDept, setCurrentDept }) => {
     //eslint-disable-next-line
-    const [email, setemail] = useState(useSelector(state => state));
+    const [email, setemail  ] = useState(useSelector(state => state.email));
     return (
         <>
             <Routes>
                 <Route path='/contact' element={<ContactUs />} />
                 <Route path='/register' element={<RegisterUser />} />
                 <Route path='/login' element={<LoginUser isLogin={isLogin} setIsLogin={setIsLogin} />} />
-                <Route path='/goal' element={<SetGoal finalGoal={finalGoal} setFinalGoal={setFinalGoal} proceed={proceed} setProceed={setProceed} corner={corner} setcorner={setcorner} />} />
+                <Route path='/goal' element={ <SetGoal finalGoal={finalGoal} setFinalGoal={setFinalGoal} proceed={proceed} setProceed={setProceed} corner={corner} setcorner={setcorner} />} />
                 <Route path='/view-goal' element={<ViewGoals finalGoal={finalGoal} setFinalGoal={setFinalGoal} />} />
                 <Route path='/' element={<MainPage />} />
                 <Route path='/performance' element={<Performancepage2 />} />
                 <Route path='/ebook' element={<Ebook />} />
+                <Route path='/assign-mentees' element={<AssignMentees />} />
                 <Route path='/timeline' element={<TimeLine />} />
-                <Route path='/attendence' element={ <AttendenceTable currentDept={currentDept} setCurrentDept={setCurrentDept} />} />
-                {/* <Route path='/nav' element={<AsideNavbar />} /> */}
-                {/* <Route path='/Performancepage' element={<Performancepage2/>}/> */}
+                <Route path="/attendence" element={<AttendenceTable currentDept={currentDept} setCurrentDept={setCurrentDept} />}/>
             </Routes>
         </>
     )
