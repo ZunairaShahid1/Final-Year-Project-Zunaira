@@ -302,11 +302,11 @@ export const Performancepage2 = () => {
                             <div className="charts" style={{ display: 'flex', flexDirection: 'column', maxWidth: '600px', margin: '60px auto' }}>
 
                                 <div className="charts-card">
-                                    <h2 className="chart-title color">Top 5 Products</h2>
+                                    <h2 className="chart-title color">Goals</h2>
                                     <div id="bar-chart"></div>
                                 </div>
                                 <div className="charts-card">
-                                    <h2 className="chart-title color">Purchase and Sales Orders</h2>
+                                    <h2 className="chart-title color">Goals Estimation</h2>
                                     <div id="area-chart"></div>
                                 </div>
                             </div>
