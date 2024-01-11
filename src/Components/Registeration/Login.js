@@ -5,7 +5,7 @@ import Logo from '../../assets/Tazkiyah Logo Bg.png'
 import { useDispatch } from "react-redux"
 import { createAuth } from '../../features/authenticationSlice'
 
-export const LoginUser = ({ isLogin, setIsLogin }) => {
+export const LoginUser = ({ isLogin, setIsLogin, forgetPasswordPopup, setForgetPasswordPopup }) => {
   let email = useRef(), password = useRef();
   let navigate = useNavigate();
   const dispatch = useDispatch();
@@ -13,7 +13,7 @@ export const LoginUser = ({ isLogin, setIsLogin }) => {
     e.preventDefault();
     dispatch(createAuth({ email: email.current.value.trim() }));
     setIsLogin(true);
-    navigate('/')
+    navigate('/notifications')
   }
   return (
     <>
@@ -33,7 +33,7 @@ export const LoginUser = ({ isLogin, setIsLogin }) => {
             <div className="google-signin flex justify-center mt-4 mr-4">
             </div>
             <div className="forgot">
-              <p onClick={() => { navigate('/register') }} className='mt-5 font-normal text-lg dark:text-gray-300 cursor-pointer ease-in duration-300 forgetpass' >Forget Password</p>
+              <p onClick={() => { setForgetPasswordPopup(true) }} className='mt-5 font-normal text-lg dark:text-gray-300 cursor-pointer ease-in duration-300 forgetpass' >Forget Password</p>
             </div>
             <hr className='hr-resourse' />
           </form>
@@ -41,9 +41,9 @@ export const LoginUser = ({ isLogin, setIsLogin }) => {
         <div className="right-login-main">
           <div className="right-login">
             <img style={{margin: "20px 0"}} src={Logo} className='logoimg' alt="" />
-            <h1 className='font-extrabold text-white welcome'>Welcome to Login</h1>
-            <p className='text-gray-100 font-lg my-4  font-semibold'>Do not have an Account</p>
-            <button onClick={() => navigate('/register')} className='signbtn'>Sign Up</button>
+            <h1 className='font-extrabold text-gray-700 welcome'>Welcome to Login</h1>
+            <p className='text-gray-700 font-lg my-4  font-semibold'>Do not have an Account</p>
+            <button onClick={() => navigate('/register')} className='signbtn text-gray-700'>Sign Up</button>
           </div>
         </div>
       </div>

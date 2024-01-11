@@ -49,9 +49,9 @@ export const Status = ({ status }) => {
 export const GoalTimeline = () => {
     return (
         <div>
-            <p className='mt-4 text-2xl flex justify-center privates'>
-                Set The Timeline of Your Goal
-            </p>
+            {/* <p className='mt-4 text-2xl flex justify-center privates'> */}
+                {/* Set The Timeline of Your Goal */}
+            {/* </p> */}
             <div className="flex justify-center place-items-center lb mt-2 mb-4">
                 <select style={{ width: '140px', marginTop: '10px', marginBottom: '3px' }} name="" id="">
                     <option value="">Daily</option>
@@ -62,3 +62,18 @@ export const GoalTimeline = () => {
         </div>
     )
 }
+
+export const SetDates = () => {
+    return (
+        <div style={{display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
+            <div style={{margin: "10px"}}>
+                <p>Start Date</p>
+                <input className='py-2' type="date" name="" id="" required={true} />
+            </div>
+            <div style={{margin: "10px"}}>
+                <p>End Date</p>
+                <input className='py-2' type="date" name="" id="" required={true} />
+            </div>
+        </div>
+    )
+} 
