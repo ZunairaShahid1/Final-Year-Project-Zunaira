@@ -15,9 +15,9 @@ export const RegisterUser = () => {
             {/* <i className="fa-brands fa-google fa-beat text-gray-600 google dark:text-white"></i> */}
           </div>
           <form className="below-name mt-5 ml-10">
-            <label className='mt-2 font dark:text-white' htmlFor="name">USERNAME</label>
+            <label className='mt-2 font dark:text-white' htmlFor="name">Sap Id</label>
             <input onChange={(e) => { name.current.value = e.target.value }} className='bg-gray-200 dark:bg-slate-500 dark:placeholder:text-white' type="text" name="emial" id
-              ="name" placeholder='User Name' ref={name} />
+              ="name" placeholder='Sap Id' ref={name} />
             <label className='font dark:text-white' htmlFor="name">Email</label>
             <input onChange={(e) => { email.current.value = e.target.value }} className='bg-gray-200 dark:bg-slate-500  dark:placeholder:text-white' type="email" name="name" id
               ="name" placeholder='Email' ref={email} />
