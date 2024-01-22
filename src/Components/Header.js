@@ -15,8 +15,8 @@ export const Header = ({ setSideBarShow, sidebarshow, isLogin, setIsLogin, showc
                             </div>
                             <div class="col-lg-6 col-md-7 col-12">
                                 <ul class="top-contact">
-                                    <li><i class="fa fa-phone"></i>+880 1234 56789</li>
-                                    <li><i class="fa fa-envelope"></i><Link to="mailto:support@yourmail.com">support@yourmail.com</Link></li>
+                                    <li><i class="fa fa-phone"></i>03245110039</li>
+                                    <li><i class="fa fa-envelope"></i><Link to="mailto:support@yourmail.com">CentralTarbiyah@gmail.com</Link></li>
                                 </ul>
                             </div>
                         </div>
