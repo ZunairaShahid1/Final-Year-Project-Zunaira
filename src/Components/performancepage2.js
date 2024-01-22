@@ -291,7 +291,7 @@ export const Performancepage2 = ({ selectedSemester, setSelectedSemester, select
                                 </div>
                                 <div class="card">
                                     <div class="card-inner">
-                                        <h3>EBOOKS</h3>
+                                        <h3>Give Zakat to Orphan Organizations</h3>
                                         <span class="material-icons-outlined">category</span>
                                     </div>
                                     <h1>25</h1>
@@ -305,7 +305,7 @@ export const Performancepage2 = ({ selectedSemester, setSelectedSemester, select
                                 </div>
                                 <div class="card">
                                     <div class="card-inner">
-                                        <h3>NOTIFICATIONS</h3>
+                                        <h3>Offer prayers</h3>
                                         <span class="material-icons-outlined">notification_important</span>
                                     </div>
                                     <h1>56</h1>
@@ -315,11 +315,11 @@ export const Performancepage2 = ({ selectedSemester, setSelectedSemester, select
                             <div className="charts" style={{ display: 'flex', flexDirection: 'column', maxWidth: '600px', margin: '60px auto' }}>
 
                                 <div className="charts-card">
-                                    <h2 className="chart-title color">Top 5 Products</h2>
+                                    <h2 className="chart-title color">Goals</h2>
                                     <div id="bar-chart"></div>
                                 </div>
                                 <div className="charts-card">
-                                    <h2 className="chart-title color">Purchase and Sales Orders</h2>
+                                    <h2 className="chart-title color">Performance</h2>
                                     <div id="area-chart"></div>
                                 </div>
                             </div>
