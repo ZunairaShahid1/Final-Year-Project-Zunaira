@@ -277,7 +277,7 @@ export const Performancepage2 = ({ selectedSemester, setSelectedSemester, select
                             {
                                 (email === "tarbiyah@gmail.com" ||email === "manager@gmail.com") && <div style={{ color: '#000' }} className="flex justify-center flex-col items-center">
                                     <p style={{ fontSize: "18px" }}>SAP ID: <span>{sapId}</span></p>
-                                    <p style={{ fontSize: "18px", margin: "10px 10px 0 10px" }}>Student Name: <span>{selectedStudent.name}</span></p>
+                                    <p style={{ fontSize: "18px", margin: "10px 10px 0 10px" }}>Mentee Name: <span>{selectedStudent.name}</span></p>
                                     <p style={{ fontSize: "18px", margin: "0 10px 10px 10px" }}>Mentor Name: <span>{selectedMentor.name}</span></p>
                                 </div>
                             }

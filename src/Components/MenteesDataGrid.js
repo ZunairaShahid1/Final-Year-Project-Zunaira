@@ -40,7 +40,7 @@ const MenteesDataGrid = ({ data, setStudentList, selectedMentor , setSelectedMen
     const handleDelete = (id) => {
         const updatedData = data.filter(arr => arr.sapid !== id);
         setStudentList(updatedData)
-        ToastContainer("Student Removed from the mentor!")
+        ToastContainer("Mentees Removed from the mentor!")
     }
     const columns = [
         {
