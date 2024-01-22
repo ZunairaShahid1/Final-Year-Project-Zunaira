@@ -62,116 +62,116 @@ const AssignMentees = ({selectedSemester, setSelectedSemester, selectedMentor, s
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 1",
-            Department: "xyz"
+            Name: "Mentee 1",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 2",
-            Department: "xyz"
+            Name: "Mentee 2",
+            Department: "SE"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 3",
-            Department: "xyz"
+            Name: "Mentee 3",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 4",
-            Department: "xyz"
+            Name: "Mentee 4",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 5",
-            Department: "xyz"
+            Name: "Mentee 5",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 6",
-            Department: "xyz"
+            Name: "Mentee 6",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 7",
-            Department: "xyz"
+            Name: "Mentee 7",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 8",
-            Department: "xyz"
+            Name: "Mentee 8",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 9",
-            Department: "xyz"
+            Name: "Mentee 9",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 10",
-            Department: "xyz"
+            Name: "Mentee 10",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 11",
-            Department: "xyz"
+            Name: "Mentee 11",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 12",
-            Department: "xyz"
+            Name: "Mentee 12",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 13",
-            Department: "xyz"
+            Name: "Mentee 13",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 14",
-            Department: "xyz"
+            Name: "Mentee 14",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 15",
-            Department: "xyz"
+            Name: "Mentee 15",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 16",
-            Department: "xyz"
+            Name: "Mentee 16",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 17",
-            Department: "xyz"
+            Name: "Mentee 17",
+            Department: "FC"
         },
         {
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Name: "Student 18",
-            Department: "xyz"
+            Name: "Mentee 18",
+            Department: "FC"
         },
         {
-            Name: "Student 19",
+            Name: "Mentee 19",
             id: generateRandomId(),
             sapid: generateRandomId(),
-            Department: "xyz"
+            Department: "FC"
         },
         {
             id: generateRandomId(),
